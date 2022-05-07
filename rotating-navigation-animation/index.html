@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>rotating-navigation-animation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+        }
+
+        #page, #page > div {
+            height: 100%;
+        }
+
+        .wrapper {
+            position: relative;
+        }
+
+        .sideMenu {
+            position: absolute;
+            top: 0;
+            width: 200px;
+            height: 100%;
+            background: black;
+            left: -200px;
+        }
+
+        .top-btn {
+            background: red;
+            padding: 50px;
+            display: inline-block;
+            border-bottom-right-radius: 100%;
+        }
+
+        #page{
+            transform: rotate(-20deg);
+            transform-origin:top left;
+        }
+
+    </style>
+</head>
+<body>
+<div id="page">
+    <div class="page1 wrapper">
+        <div class="top-btn">
+            <button>open</button>
+        </div>
+
+    </div>
+    <div class="sideMenu wrapper">
+        <div class="top-btn">
+            <button>close</button>
+        </div>
+        <ul>
+            <li><a href="#">m1</a></li>
+            <li><a href="#">m2</a></li>
+            <li><a href="#">m3</a></li>
+            <li><a href="#">m4</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
