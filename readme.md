@@ -12,3 +12,6 @@ https://github.com/bradtraversy/50projects50days
 
 ### 2일차
 - [x] rotating-navigation-animation
+
+### 3일차
+- [x] hidden-search
