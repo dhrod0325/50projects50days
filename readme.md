@@ -21,3 +21,4 @@ https://github.com/bradtraversy/50projects50days
 ### 4일차
 - [x] split-landing-page
 - [x] form-wave
+- [x] sound-board
