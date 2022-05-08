@@ -22,3 +22,4 @@ https://github.com/bradtraversy/50projects50days
 - [x] split-landing-page
 - [x] form-wave
 - [x] sound-board
+- [x] dad-jokes
