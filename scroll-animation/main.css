@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards {
+    list-style: none;
+    overflow: hidden;
+}
+
+.cards li {
+    height: 200px;
+    padding: 10px;
+    background: red;
+    color: #fff;
+    margin: 0 auto 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+}
+
+.cards li:nth-child(even) {
+    transform: translateX(-400%);
+}
+
+.cards li:nth-child(odd) {
+    transform: translateX(400%);
+}
+
+.cards li.show {
+    transform: translateX(0);
+}

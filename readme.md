@@ -16,3 +16,4 @@ https://github.com/bradtraversy/50projects50days
 ### 3일차
 - [x] hidden-search
 - [x] blurry-loading
+- [x] scroll-animation
