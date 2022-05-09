@@ -23,3 +23,4 @@ https://github.com/bradtraversy/50projects50days
 - [x] form-wave
 - [x] sound-board
 - [x] dad-jokes
+- [x] event-keycodes
