@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+body {
+    background: #2b88f0;
+}
+
+p, textarea {
+    width: 100%;
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+}
+
+textarea {
+    border: none;
+    background: #fff;
+    margin: 20px 0;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.text-container {
+    display: flex;
+    gap: 20px;
+}
+
+.text-container li {
+    padding: 5px 20px;
+    background: #f0932b;
+    color: #fff;
+    border-radius: 10px;
+}

@@ -27,3 +27,6 @@ https://github.com/bradtraversy/50projects50days
 
 ### 5일차
 - [x] faq-collapse
+
+### 6일차
+- [x] random-choice-picker
